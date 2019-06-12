@@ -1,0 +1,17 @@
+@import "../vars"
+
+=a($color: $text, $hover-color: $text, $text-decoration: none)
+  color: $color
+  text-decoration: $text-decoration
+  &:hover
+    color: $hover-color
+    text-decoration: $text-decoration
+  &:focus
+    color: $color
+    text-decoration: $text-decoration
+
+=list($margin: 0, $padding: 0, $list-style: none)
+  margin: $margin
+  padding: $padding
+  list-style-type: $list-style
+
